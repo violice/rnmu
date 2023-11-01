@@ -4,8 +4,8 @@ import { RNMU_EVENTS, modalsEventEmitter } from './events';
 
 export const useRNMUEvents = (ctx: RNMUContextState) => {
   const events = {
-    open: (event: any) => ctx.openModal(event.detail),
-    close: (event: any) => ctx.closeModal(event.detail),
+    open: (event: any) => ctx.openModal(event),
+    close: (event: any) => ctx.closeModal(event),
   };
 
   useEffect(() => {
