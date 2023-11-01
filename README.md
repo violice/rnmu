@@ -1,4 +1,4 @@
-# RNMU (React modal utility)
+# RNMU (React Native modal utility)
 
 RNMU is a small, zero-dependency utility to control modals in React Native apps
 
@@ -12,7 +12,7 @@ yarn add @violice/rnmu
 ## Usage
 
 ```js
-import { openModal, closeModal, RNMUOutlet, RNMUProvider } from 'rnmu';
+import { openModal, closeModal, RNMUOutlet, RNMUProvider } from '@violice/rnmu';
 
 const Example = () => {
   return (
@@ -50,7 +50,7 @@ const Example = () => {
 ## RoadMap
 
 - [x] Custom events, new API (0.2.0)
-- [ ] Connected modals (Context modals)
+- [ ] Connected modals
 - [ ] Auto-close
 - [ ] Use for toasts example
 
